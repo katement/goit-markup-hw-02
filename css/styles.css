@@ -72,7 +72,7 @@ text-decoration: none;
 }
 /* CURRENT*/
 .current {
-    color: var(--primary-brand );
+    color: var(--primary-brand);
 }
 .header-contacts {
     font-style: normal;
