@@ -54,19 +54,25 @@ a {text-decoration: none;}
     letter-spacing: 0.03em;
 }
 
-.header-navigation-item {font-style: normal;
+.header-navigation-item {
     font-weight: 700;
     line-height: 1.5;
     color:  var(--dark);
     text-decoration: none;
     letter-spacing: 0.02em;
+    font-size: 16px;
 }
+
 .header-navigation-item:hover{
 color: var(--primary-brand);
-text-decoration: none;}
-.header-navigation-item:focus{
-color: var(--primary-brand);
-text-decoration: underline;
+text-decoration: none;
+}
+.header-navigation-item:focus {text-decoration: underline;
+    
+}
+/* CURRENT*/
+.current {
+    color: var(--primary-brand );
 }
 .header-contacts {
     font-style: normal;
@@ -109,6 +115,11 @@ gap: 10px;}
 .main-background{ 
     background:  var(--dark);
 }
+
+.main-section-team {
+    background-color: var(--light);
+
+}
 .main-heading-2 {
     font-style: normal;
     font-weight: 700;
@@ -119,7 +130,7 @@ gap: 10px;}
 }
 
 .main-item {
-    font-style: normal;
+   
     font-weight: 400;
     line-height: 1.5;
 
@@ -182,6 +193,7 @@ background-color: var(--light);
 border: 1px solid var(--accent);
 border-radius: 4px;
 font-family: var(--main-font);
+font-size: 16px;
 }
 .main-filter-button:hover, .main-filter-button:focus {
     background-color: var(--pressed-state);
